@@ -8,7 +8,7 @@ import cv2 as cv
 def get_pixel_value(event):
     coordinates = event.x, event.y
     print(hsv_img[coordinates[1]][coordinates[0]])
-    print(pixel[coordinates[0], coordinates[1]])
+    #print(pixel[coordinates[0], coordinates[1]])
 
 
     text_file = open("pixel_samples.txt", "a")
@@ -20,7 +20,7 @@ def get_pixel_value(event):
 
 
 #path = 'masks_no_errosion_abstract/pliers_random_dataset_29_2.png'
-path = 'trouble_images_cf/zzzz2.png'
+path = 'bla.png'
 #im_name = path.split('/')[1]
 #print(im_name)
 picture = Image.open(path)
