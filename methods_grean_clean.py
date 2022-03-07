@@ -215,9 +215,6 @@ def clean_green_edges(first_iteration, iteration_stopper, file_name, mask_name):
     # Getting the width and height form img
     width, height = img.size
 
-    # Turning all pixels in the background pink (green screen to pink pixels)
-    img.save('bla.png')
-
     # Method to clean edges
     first_iteration, iteration_stopper = clean_edges(img, save_name, first_iteration, iteration_stopper, file_name,
                                                          mask_name, pix, hsv_img, width, height)
